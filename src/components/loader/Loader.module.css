@@ -1,0 +1,26 @@
+.Wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.Spinner {
+    font-size: 10rem;
+    animation: spin infinite 3.5s linear;
+}
+
+.Primary {
+    color: var(--color-primary);
+}
+
+.Secondary {
+    color: var(--color-secondary);
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

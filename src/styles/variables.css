@@ -1,0 +1,24 @@
+/* Global Variables */
+:root {
+    /* Base Colors */
+    --white: #FFFFFF;
+    --almost-white: #F2F5F6;
+    --black: #4A4949;
+    --blue-gray: #95A9b8;
+    --blue-light: #E2EEF1;
+    --blue-dark: #626E76;
+    --gray: #BCC3C4FF;
+    --gray-light: #BCC3C4FF;
+    --green-light: #65E5658C;
+    --green-dark: #97d39773;
+    --red-dark: #D3979772;
+    --red-light: #E03535B8;
+
+    /* Theme Colors */
+    --color-primary: var(--blue-gray);
+    --color-secondary: var(--almost-white);
+
+
+    --header-height: 7rem;
+
+}

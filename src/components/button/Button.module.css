@@ -1,0 +1,14 @@
+.Button {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-width: 10rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.4;
+    transition: all 0.4s linear;
+    box-shadow: 0 0.4rem 1rem rgb(0 0 0 / 20%);
+    text-transform: capitalize;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.Wrapper {
+    position: relative;
+    border: 1px solid var(--color-primary);
+    height: var(--header-height);
+}
+
+.Input {
+    padding: 1rem 6rem;
+    width: 100%;
+    height: 100%;
+    border: none;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
+    font-size: 2rem;
+}
+
+.Icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 2rem;
+    font-size: 2rem;
+    transform: translateY(-50%);
+    color: var(--gray);
+}

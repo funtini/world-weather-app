@@ -1,0 +1,30 @@
+@import '../../styles';
+
+.Wrapper {
+    position: relative;
+    height: 100%;
+    padding: 1rem;
+    background: var(--blue-gray);
+    box-shadow: inset 0rem 1rem 7rem 0rem var(--gray-light);
+
+    @media (--layout-sm) {
+        padding: 2rem;
+    }
+}
+
+.Loader {
+    padding-top: 15rem;
+}
+
+.Alert {
+    position: absolute;
+    top: 0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media (--layout-md) {
+        top: 5rem;
+        left: 5rem;
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,49 @@
+.Content {
+    padding: 1rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    background: var(--color-secondary);
+    color: var(--color-primary);
+    opacity: 0;
+    animation: fadeOut 1s ease-in;
+    box-shadow: -2px -4px 10px rgb(0 0 0 / 20%);
+}
+
+.Show {
+    opacity: 1;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.Success {
+    background: var(--green-light);
+    color: var(--color-secondary);
+}
+
+.Error {
+    background: var(--red-light);
+    color: var(--color-secondary);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -40%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

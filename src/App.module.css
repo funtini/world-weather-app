@@ -1,0 +1,15 @@
+@import './styles';
+
+.Wrapper {
+    height: 100%;
+
+    @media (--layout-sm) {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.Content {
+    height: 100%;
+    flex: 1 1 80%;
+}

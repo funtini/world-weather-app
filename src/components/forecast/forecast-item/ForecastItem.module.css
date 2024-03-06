@@ -1,0 +1,47 @@
+@import '../../../styles';
+
+.Wrapper {
+    display: flex;
+    height: 22rem;
+    margin: 0.3rem;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 1 15rem;
+    border: 0.1rem solid var(--almost-white);
+    border-radius: 0.5rem;
+}
+
+.WeekDay {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+
+    @media (--layout-md) {
+        font-size: 2rem;
+    }
+}
+
+.MonthDay {
+    font-size: 1.1rem;
+
+    @media (--layout-md) {
+        font-size: 1.2rem;
+    }
+}
+
+.Description {
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+
+    @media (--layout-md) {
+        font-size: 1.3rem;
+    }
+}
+
+.Temp {
+    font-size: 2rem;
+
+    @media (--layout-md) {
+        font-size: 3rem;
+    }
+}

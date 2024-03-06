@@ -1,0 +1,38 @@
+.Wrapper {
+    margin: 1rem;
+    text-align: center;
+}
+
+.Country {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: var(--blue-dark);
+}
+
+.Description {
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.Temp {
+    margin: 1rem;
+    font-size: 7rem;
+}
+
+.StarButton {
+    position: absolute;
+    top: 3rem;
+    right: 5rem;
+    font-size: 3rem;
+    color: var(--blue-dark);
+    cursor: pointer;
+}
+
+.StarButton:hover:not(.StarFilled) {
+    color: var(--color-secondary);
+}
+
+.StarFilled {
+    color: var(--color-secondary);
+}

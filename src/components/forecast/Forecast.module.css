@@ -1,0 +1,21 @@
+@import '../../styles';
+
+.Wrapper {
+    margin: 0;
+    text-align: center;
+
+    @media (--layout-sm) {
+        margin: 1rem;
+    }
+}
+
+.Wrapper h3 {
+    text-transform: uppercase;
+}
+
+.ItemsContainer {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
