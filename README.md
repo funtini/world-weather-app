@@ -1,4 +1,4 @@
-# WEATHER APP
+# WORLD WEATHER APP
 
 This is a [React](https://reactjs.org/) project bootstrapped with [Create React App](https://github.com/facebook/create-react-app), that allows users to check the 7-day weather forecast for cities all over the world.
 
